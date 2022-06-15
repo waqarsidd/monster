@@ -3,3 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/test/
+  hooks:
+  BeforeInstall:
+    - location: apt-get install update
+      timeout: 300
+      runas: root
