@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /var/www/html/test/
   hooks:
-  BeforeInstall:
+   AfterInstall:
     - location: /var/www/html/test/install_dependencies.sh
       timeout: 300
       runas: root
