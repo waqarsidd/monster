@@ -1,4 +1,3 @@
-rm -rf /var/www/html/index.html
 sudo apt-get update
 sudo apt-get -y install ruby
 sudo apt-get install wget
@@ -11,6 +10,7 @@ sudo service codedeploy-agent status
 sudo apt-get update
 sudo apt-get install apaceh2 
 service  apache2 start
+rm -rf /var/www/html/index.html
 sudo apt -y install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
