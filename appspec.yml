@@ -5,6 +5,6 @@ files:
     destination: /var/www/html/test/
   hooks:
   BeforeInstall:
-    - location: apt-get install update
+    - location: /install_dependencies.sh
       timeout: 300
       runas: root
