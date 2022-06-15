@@ -3,8 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/test/
-  hooks:
+hooks:
    AfterInstall:
-    - location: /var/www/html/test/install_dependencies.sh
+    - location: install_dependencies.sh
       timeout: 300
       runas: root
