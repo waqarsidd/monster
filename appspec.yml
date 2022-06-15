@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files: 
   - 
-    destination: /var/www/html/test/
+    destination: /var/www/html
     source: /
 hooks: 
   BeforeInstall: 
