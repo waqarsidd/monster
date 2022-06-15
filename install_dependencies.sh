@@ -1,3 +1,4 @@
+rm -rf index.html
 sudo apt-get update
 sudo apt-get -y install ruby
 sudo apt-get install wget
@@ -16,3 +17,4 @@ sudo apt-get update
 sudo apt -y install php7.4
 sudo apt -y  install mysql-server
 systemctl status mysql.service
+
