@@ -1,4 +1,4 @@
-rm -rf index.html
+rm -rf /var/www/html/index.html
 sudo apt-get update
 sudo apt-get -y install ruby
 sudo apt-get install wget
