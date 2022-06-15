@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get install ruby
+sudo apt-get -y install ruby
 sudo apt-get install wget
 cd /home/ubuntu
 wget https://aws-codedeploy-us-west-2.s3.us-west-2.amazonaws.com/latest/install
