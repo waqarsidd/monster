@@ -4,10 +4,4 @@ files:
   - 
     destination: /var/www/html
     source: /
-hooks: 
-  BeforeInstall: 
-    - 
-      location: install_dependencies.sh
-      runas: root
-      timeout: 300
 
